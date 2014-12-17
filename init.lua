@@ -873,9 +873,9 @@ minetest.register_ore({
 	ore_type       = "scatter",
 	ore            = "chemistry:stone_with_uranium",
 	wherein        = "default:stone",
-	clust_scarcity = 10*10*10,
+	clust_scarcity = 11*11*11,
 	clust_num_ores = 5,
 	clust_size     = 7,
 	height_min     = -31000,
-	height_max     = -50,
+	height_max     = -144,
 })
