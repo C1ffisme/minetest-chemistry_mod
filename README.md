@@ -14,3 +14,13 @@ We also have a few medicines, which are probably WAY too powerful. And very unre
 And, we also have plastic, which might be the best feature of the mod.
 
 Depends : Minetest. You can find it here : minetest.net
+
+Some ideas:
+
+- Radiation
+- Alchemy Improvement
+- Mutation
+- Realistic Medicines that only heal in certain conditions
+- Nukes? (Nah, that would probably make this mod bad content for no-grief servers, unless you could disable it.)
+- Nuclear Power (Why haven't we (as in myself) made this yet? Maybe you can use it to power mesecons or something.)
+- More, actual, chemistry. Chemical Reactions, Heat, etc. 
