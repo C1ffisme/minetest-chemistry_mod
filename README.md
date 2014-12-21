@@ -20,7 +20,7 @@ Some ideas:
 - Radiation
 - Alchemy Improvement
 - Mutation
-- Realistic Medicines that only heal in certain conditions
+- Realistic Medicines that only heal in certain conditions (Kind of Done. But why not do illnesses or something?)
 - Nukes? (Nah, that would probably make this mod bad content for no-grief servers, unless you could disable it.)
 - Nuclear Power (Why haven't we (as in myself) made this yet? Maybe you can use it to power mesecons or something.)
 - More, actual, chemistry. Chemical Reactions, Heat, etc. 
