@@ -272,7 +272,19 @@ minetest.register_craftitem("chemistry:apple_juice", {
 minetest.register_craftitem("chemistry:synthetic_medicine", {
 	description = "Synthetic Pill",
 	inventory_image = "chemistry_medicine3.png",
-	on_use = minetest.item_eat(10),
+	on_use = function(itemstack, user)
+		if user:get_hp() < 11 then
+			local inv = user:get_inventory()
+			user:set_hp(user:get_hp() + 10)
+			itemstack:take_item()
+			return itemstack	
+		else
+			local inv = user:get_inventory()
+			user:set_hp(0)
+			itemstack:take_item()
+			return itemstack
+		end
+	end,
 })
 
 minetest.register_craft({
